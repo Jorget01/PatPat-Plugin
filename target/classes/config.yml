@@ -1,0 +1,77 @@
+# PatPatPlugin Configuration
+# Visual effects settings when petting entities
+
+particles:
+  enabled: true
+  type: HEART
+  count: 10
+  spread: 0.5
+  # Particle size (0.1 - small, 1.0 - default, 2.0 - large)
+  size: 1.0
+
+sound:
+  enabled: true
+  # Sound when petting (any Sound from Minecraft)
+  # ENTITY_EXPERIENCE_ORB_PICKUP - default
+  # ENTITY_VILLAGER_AMBIENT - villager sound
+  # ENTITY_CAT_AMBIENT - cat meow
+  # ENTITY_WOLF_AMBIENT - dog bark
+  # ENTITY_PARROT_AMBIENT - parrot sound
+  type: ENTITY_EXPERIENCE_ORB_PICKUP
+  volume: 0.5
+  pitch: 1.5
+
+# List of entities that can be petted
+# Use EntityType names from Minecraft
+entities:
+  # true = whitelist (only these entities), false = blacklist (all except these)
+  enabled-list: false
+  
+  # List of entity types (works when enabled-list: true)
+  types:
+    - CAT
+    - WOLF
+    - PIG
+    - SHEEP
+    - COW
+    - CHICKEN
+    - RABBIT
+    - HORSE
+    - LLAMA
+    - FOX
+    - PANDA
+    - TRADER_LLAMA
+    - OCELOT
+    - PARROT
+    - TURTLE
+    - DOLPHIN
+    - BEE
+    - FROG
+    - MOOSHROOM
+    - GOAT
+    - CAMEL
+    - SNIFFER
+    - ARMADILLO
+    - WARDEN
+    - VILLAGER
+    - ZOMBIE_VILLAGER
+    - WITHER
+    - ENDER_DRAGON
+    - PHANTOM
+    - SHULKER
+
+# Animation settings when petting
+animation:
+  # Entity jump height (0.0 - disabled, 0.5 - default, 1.0 - high)
+  jump-height: 0.5
+  # Rotate entity towards player
+  rotate-entity: true
+
+# Distance to find nearest entity
+range: 4.0
+
+# Cooldown between petting (in milliseconds)
+cooldown: 500
+
+# Show message when petting
+message: true

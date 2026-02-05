@@ -1,0 +1,24 @@
+name: PatPatPlugin
+version: 1.0.0
+main: ru.patpat.patpatplugin.PatPatPlugin
+api-version: "1.21"
+description: Plugin for petting entities in Minecraft
+author: Jorget_
+
+permissions:
+  patpat.pet:
+    description: Permission to pet entities
+    default: op
+  patpat.reload:
+    description: Permission to reload plugin config
+    default: op
+
+commands:
+  patpat:
+    description: Pet the nearest entity
+    usage: /patpat
+    permission: patpat.pet
+  patpatreload:
+    description: Reload plugin configuration
+    usage: /patpatreload
+    permission: patpat.reload
