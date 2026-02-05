@@ -114,19 +114,3 @@ range: 4.0              # Distance to find entities
 cooldown: 500           # Cooldown in milliseconds
 message: true            # Show pet message
 ```
-
-## Building
-
-```bash
-mvn clean package
-```
-
-The compiled JAR will be in `target/patpat-plugin-1.0.0.jar`
-
-## License
-
-MIT License
-
-## Author
-
-Jorget_
