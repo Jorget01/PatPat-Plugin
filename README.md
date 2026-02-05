@@ -13,22 +13,6 @@ A Minecraft Paper plugin for petting entities with visual effects and sounds.
 - **Full configuration** - all settings adjustable in config.yml
 - **Reload command** - `/patpatreload` to reload config without restarting
 
-## Requirements
-
-- **Paper** 1.21.x (recommended)
-- **Purpur** 1.21.x
-- **Leaves** 1.21.x
-- **Folia** 1.21.x (with region logic)
-- **Spigot** 1.21.x (might need to compile with Spigot API)
-- **Paper API** 1.21.4-R0.1-SNAPSHOT
-- **Java** 17 or higher
-
-## Installation
-
-1. Download the latest `patpat-plugin-1.0.0.jar` from releases
-2. Place the JAR file in your server's `plugins` folder
-3. Restart or reload your server
-
 ## Commands
 
 | Command | Permission | Description |
@@ -114,3 +98,4 @@ range: 4.0              # Distance to find entities
 cooldown: 500           # Cooldown in milliseconds
 message: true            # Show pet message
 ```
+
