@@ -1,3 +1,6 @@
+
+## [DOWNLOAD](https://modrinth.com/plugin/patpatplugin)
+
 # PatPatPlugin
 
 A Minecraft Paper plugin for petting entities with visual effects and sounds.
@@ -98,4 +101,5 @@ range: 4.0              # Distance to find entities
 cooldown: 500           # Cooldown in milliseconds
 message: true            # Show pet message
 ```
+
 
