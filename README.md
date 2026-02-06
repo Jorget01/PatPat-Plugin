@@ -1,5 +1,4 @@
-
-## [DOWNLOAD](https://modrinth.com/plugin/patpatplugin)
+[![Modrinth Link-Banner](https://cdn.modrinth.com/data/cached_images/9991553f6a20e5105b9b153b8d817bc3630c18a8.png)](https://modrinth.com/plugin/patpatplugin)
 
 # PatPatPlugin
 
@@ -101,5 +100,6 @@ range: 4.0              # Distance to find entities
 cooldown: 500           # Cooldown in milliseconds
 message: true            # Show pet message
 ```
+
 
 
